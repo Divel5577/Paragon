@@ -1,0 +1,102 @@
+/* Styl ogólny */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Nag³ówek */
+.receipt-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Komórki tabeli */
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Nag³ówki tabeli */
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Stopka tabeli */
+tfoot td {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    text-align: right;
+    padding-right: 10px;
+}
+
+    tfoot td:last-child {
+        text-align: center;
+        font-weight: bold;
+        color: #333;
+    }
+
+/* Przycisk */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Dialog */
+dialog {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+    /* Formularze w dialogach */
+    dialog form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    dialog form input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        padding : 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: 'Roboto', Arial, sans-serif;
+    }
+    
+    /* Przyciski w dialogach */
+    dialog form div {
+        text-align: center;
+    }
+
+        dialog form div button {
+            margin: 5px;
+        }
